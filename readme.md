@@ -22,7 +22,7 @@ hadoop fs -rm -r /maxprice.results
 
 ### Run the MaxPrice job
 
-hadoop jar /mnt/c/Users/xxx/.m2/repository/com/apnatriangle/hadoop/MaxStockPrice/1.0-SNAPSHOT/MaxStockPrice-1.0-SNAPSHOT.jar MaxPrice /stockprice /stockprice.results
+hadoop jar /mnt/c/Users/xxx/.m2/repository/com/apnatriangle/hadoop/MaxStockPrice/1.0-SNAPSHOT/MaxStockPrice-1.0-SNAPSHOT.jar MaxPrice /stockprice /maxprice.results
 
 
 ### Check out the results.  It should display 2 rows as there are 2 symbols
